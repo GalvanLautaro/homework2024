@@ -6,7 +6,7 @@ app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "index.html"))
 })
 
-app.use("/js", express.static(path.join(__dirname, "scripts")))
+app.use("/scripts", express.static(path.join(__dirname, "scripts")))
 
 app.listen(5000, () => {
     console.log("Listening on port " + 5000)
