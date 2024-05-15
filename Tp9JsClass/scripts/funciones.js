@@ -47,6 +47,7 @@ function mostrarPromedioEdad(autores) {
     return promedio / autores.length
 }
 
+// Funcion para mostrar dentro de una tabla a todos los elementos del vector autores
 function mostrarAutores(autores) {
     document.write("<br><div><table border=3><caption>Lista autores</caption><thead><tr><th>Nombre</th><th>Apellido</th></tr></thead><tbody>")
 
