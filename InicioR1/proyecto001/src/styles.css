@@ -1,0 +1,46 @@
+.componenteGenerico {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.componente {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.tarjeta {
+    border: 2px, solid, #fff;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: #2a6e8d;
+}
+
+.tarjeta > img {
+    border-radius: 7rem;
+}
+
+.tarjeta > h2 {
+    font-size: 3rem;
+}
+
+.contador > p {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.contador > button {
+    background: #2a6e8d;
+    border-style: none;
+    margin: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    padding: .6rem;
+}
